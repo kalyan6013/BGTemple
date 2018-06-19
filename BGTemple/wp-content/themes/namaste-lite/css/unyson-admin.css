@@ -1,0 +1,19 @@
+.fw-backend-option-type-icon .fa-namaste-buddha:before,
+.fw-backend-option-type-icon .fa-namaste-hand:before,
+.fw-backend-option-type-icon .fa-namaste-lotus:before,
+.fw-backend-option-type-icon .fa-namaste-om:before,
+.fw-backend-option-type-icon .fa-namaste-palm:before,
+.fw-backend-option-type-icon .fa-namaste-yoga:before { 
+	line-height: 1px;
+}
+
+.column-slider_design img {
+	width: 150px;
+	height: 55px;
+}
+
+#fw-option-slider-type img {
+	max-width: 100%;
+    width: 100%;
+    height: inherit;
+}

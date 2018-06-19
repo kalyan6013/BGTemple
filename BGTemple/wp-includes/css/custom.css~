@@ -1,0 +1,14 @@
+.bgclass
+{
+	font-family: 'Athiti', sans-serif;
+}
+.bgcontactheader
+{
+	/*font-family:'PT Sans Caption', sans-serif;*/
+	font-family: 'Lora', serif;
+}
+.bgcontact
+{
+	font-family: 'Athiti', sans-serif;
+}
+

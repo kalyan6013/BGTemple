@@ -1,0 +1,38 @@
+/* THEME FONTS */
+
+/* Font 1 */
+
+h1, h2, h3, h4, h5, h6, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea, #donate-button .btn, #headernav, .button:visited, input[type="submit"],input[type="reset"], input[type="button"], button, h3#comments-title, h3#reply-title, .comment-body .fn, #commentform textarea, #respond label, .ticket-title, .widget-title, .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="password"], .wpcf7 textarea, .wpcf7 input[type=submit], .post-single-title, div.pp_default .pp_nav .currentTextHolder, div.pp_default .pp_description, .mega-menu a, .newsletter-title, .pricing-header, .schedule-title, .schedule-point-time, .widget_namaste_popularwidget a, .widget_archive a, .widget_categories a, .widget_nav_menu a, .widget_recent_entries a, .widget_meta a, .widget_pages a, .widget_product_categories a, .organizer-name
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Font 2 */
+
+.post-single-categories a, .details-event li, .schedule-point-title
+{
+	font-family: 'Fondamento', cursive;
+}
+
+/* Font 3 */
+
+body 
+{
+	font-family: 'Playfair Display', serif;
+}
+
+/* PLUGIN FONTS */
+
+/* Font 1 */
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea, .main-button .btn, .dropcap, .blockquote-1-author, .heading .h, .big-letters, .namaste-map-view .show-title, .namaste-map-contacts .title, .imagebox .name, .iconbox .name, .namaste-tab-holder .nav-tabs, .toggle a, .member-info h3, .progress .fore .name, .namaste-action-call, .namaste-action-call .title, .action-call-item.square.action-call-effect .info p, .book-title, .post-shortcode .entry-title, .home-tags, .post-shortcode .entry-title a, .post-2-content .entry-title, .post-with-frame .post-with-frame-title, .event-titles, .subtext, .date-box-day, .event-box-link, #owl-quote-namaste .quote-author-position, .event-box a, .event-more, .namaste-custom-slider .namaste-slider-caption
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Font 2 */
+
+.category-list, .post-shortcode .post-author, .eventinfos, .heading-2 h1, .heading-2 h2, .heading-2 h3, .heading-2 h4, .heading-2 h5, .heading-2 h6, .post-2-item-holder figure p, .action-call-item .info h3, #owl-quote-namaste .quote-author, .book-author, .price-description, .date-box-month, .event-content-info p
+{
+	font-family: 'Fondamento', cursive;
+}

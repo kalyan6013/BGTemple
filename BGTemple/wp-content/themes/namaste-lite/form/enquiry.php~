@@ -1,0 +1,30 @@
+<?php
+	$dbhost = 'localhost';
+	$dbuser = 'sample_wordpress_admin';
+	$dbpass = 'BGTemple@561208';
+	$conn = mysql_connect($dbhost, $dbuser, $dbpass);
+	if(!$conn)
+	{
+	die('Could not connect: ' . mysql_error());
+	}
+if(isset($_POST['Name'])){
+$Name=$_POST['Name'];
+$Email=$_POST['Email'];
+$Mobile=$_POST['Mobile'];
+$Enquiry=$_POST['Enquiry'];
+if($Name != "" && $Email != "" && $Mobile!= "" && $Enquiry!= ""){
+$sql="INSERT INTO Devotee_Enquiry(Name,Email,Mobile,Enquiry) VALUES ('$Name','$Email','$Mobile','$Enquiry')";
+
+mysql_select_db('BG_Temple');
+$retval=mysql_query($sql,$conn);
+if(!$retval)
+{
+die('could not enter data:'.mysql_error());
+}
+echo '<script>alert("Enqiry received")</script>';
+echo '<script>window.location="http://localhost/BGTemple/contact/";</script>';
+}
+}
+mysql_close($conn);
+?>
+

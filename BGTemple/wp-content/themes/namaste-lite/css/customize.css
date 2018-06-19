@@ -1,0 +1,31 @@
+.webzakt-button {
+    font-size: 18px;
+    margin: 25px 15px 15px 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    text-decoration: none;
+    overflow: visible;
+    padding: 12px 24px;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #fff !important;
+    background-color: #E84E41;
+    border: 0;
+    white-space: nowrap;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: none;
+}
+
+.webzakt-button-more {
+	background-color: #2E3138!important;
+}
+
+.webzakt-button-more:hover {
+	background-color: #E84E41!important;
+}
